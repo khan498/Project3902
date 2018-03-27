@@ -1,0 +1,13 @@
+﻿Author:		Zicong Zhang
+Date of code review:	9/20/2017
+Sprint - 2
+Name of the .cs file being reviewed:	KeyboardController.cs
+Author of the .cs file being reviewed:	Thomas Unger
+Number of minutes taken to complete the review:		~16 mins
+
+	The code has high readability in terms of formatting and clarity. The code is self explaining in a  way
+	in which the process of mapping command into the controller mapper is divided into three steps, which are
+	organized in a well manner.
+	One thing I would suggest about the code would be adding a function in the controller class so that the controller 
+	class is able to call and use implementions directly from the spritefactory and state machines, which will be an 
+	important component in Sprint2.

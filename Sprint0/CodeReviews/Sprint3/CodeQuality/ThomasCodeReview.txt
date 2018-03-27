@@ -1,0 +1,14 @@
+﻿Author:		Thomas Unger
+Date of code review:	10/9/2017
+Sprint - 3
+Name of the .cs file being reviewed:	CollisionDetector.cs
+Author of the .cs file being reviewed:	Wesley Brown
+Number of minutes taken to complete the review:		~15 mins
+
+	This class exhibits many of the characteristics of high quality code, but also has some room for improvement.
+	As a major class that directs the flow of the program for a large number of interactions, there is little way to
+	decrease the complexity of the class.  It is approximately 250 lines long, most of which is taken up by conditional
+	checks for the various types of collisions.  The class exhibits a high level of cohesion because it contains only the 
+	methods necessary to handle the different types of collisions.  It has relatively high cyclomatic complexity and long 
+	length but those issues are unavoidable for a class of this type.  This class also exhibits loose coupling with almost
+	no outside dependencies.

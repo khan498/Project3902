@@ -1,0 +1,14 @@
+﻿Author of the code review:	Ziheng Wei
+Date of the code review:	09/20/17
+Sprint number:	Sprint 2
+Name of the .cs file being reviewed:	Coin.cs
+Author of the .cs file being reviewed:	Tanzim Khan
+Number of minutes taken to complete the review:	15 mins
+Specific comments on code quality: 
+	Code's cohesion is high and coupling is low so it follows high code quality desgin pattern
+	There is no code smells since every method is not long and the class is meaningful
+	The design of this class is clear. 
+A hypothetical change to make to the game related to file being reviewed and how the current 
+implementation could or could not easily support that change:
+	It is easy to change if we want the coin to be in different sprite or change its location
+	we only need to change the parameters we give to this class. 

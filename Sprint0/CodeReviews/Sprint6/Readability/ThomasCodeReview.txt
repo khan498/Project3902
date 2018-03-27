@@ -1,0 +1,12 @@
+﻿Author:		Thomas Unger
+Date of code review:	12/5/2017
+Sprint - 6
+Name of the .cs file being reviewed:	MovingPlatformLarge.cs
+Author of the .cs file being reviewed:	Wesley Brown
+Number of minutes taken to complete the review:		~15 mins
+
+This class maintains high readibility due to the way the functionality is broken up into its member functions.
+The class dictates the behavior of the moving platforms in the arena game mode.  Each function of the platform 
+is defined in a separate method which is called in sequence as part of the update method.  The initial parameters
+of the platform such as size and velocity are defined near the top of the class in a location where they can be 
+easily modified.  In addition, the variables have clear names to make tracking the function a simple task.

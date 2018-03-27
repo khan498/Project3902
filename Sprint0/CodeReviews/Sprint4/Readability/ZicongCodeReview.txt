@@ -1,0 +1,11 @@
+﻿Author:		Zicong Zhang
+Date of code review:	10/23/2017
+Sprint - 4
+Name of the .cs file being reviewed:	FirBallPhysics.cs
+Author of the .cs file being reviewed:	Tanzim F Khan
+Number of minutes taken to complete the review:		~14 mins
+
+	The Code is readable. First of all, the clss has a clean design, where the constructor is at the top,
+	followed by different methods built within the class. Using the physics class as a parameter to control all 
+	other behaviors of item inhance the cohesion of the class. If I were to give any suggestion on the class,
+	adding variables that could be passed into the physics class could make the implementation more flexiable.

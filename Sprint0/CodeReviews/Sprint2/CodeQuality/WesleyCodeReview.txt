@@ -1,0 +1,19 @@
+﻿Author: Wesley Brown
+Date: 09/25/2017
+Sprint: 2
+File being reviewed: QuestionBlockSprite.cs
+Author of the file: Zicong Zhang
+
+	Overall, I believe that this file has good code quality. It has four
+	fields but they are all relevent to what the class represents. Plus,
+	one of the fields is static since it is the same between all instances
+	of the class, reducing duplicate copies of data that doesn't change
+	between instances. The methods have names that clearly describe what
+	they do and take at most two parameters, reducing complexity.
+
+	One hypothetical change to the game that this class wouldn't be very
+	maintainable with would be if the QuestionBlockSprites were to be scaled
+	up or down in size as the game was running. Since the class uses magic 
+	number values for the width and height for the destination rectangle, they 
+	couldn't be changed while the game was running. Doing so would require 
+	stopping the game, editing the magic number values, and re-compiling.

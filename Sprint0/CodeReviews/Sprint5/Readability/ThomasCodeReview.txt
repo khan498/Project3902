@@ -1,0 +1,12 @@
+﻿Author:		Thomas Unger
+Date of code review:	11/8/2017
+Sprint - 5
+Name of the .cs file being reviewed:	EndOfLevelAnimation.cs
+Author of the .cs file being reviewed:	Tanzim Khan
+Number of minutes taken to complete the review:		~15 mins
+
+This class is generall pretty readable when it comes to understanding the functionality and the different components at work.
+It basically controlls Mario's interaction with the two end of level environmental objects, the flag pole and the castle.  The 
+Animate method takes up the majority of the file and dictates responses to a couple of different cases of Mario interacting with 
+the flag pole.  To improve the readability of this class, consider restructuring the animate method to make the use of the boolean 
+values shiftedRight and sidesSwitched more clear.

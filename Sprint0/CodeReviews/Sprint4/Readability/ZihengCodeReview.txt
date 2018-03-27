@@ -1,0 +1,13 @@
+﻿Author of the code review:	Ziheng Wei
+Date of the code review:	10/23/17
+Sprint number:	Sprint 4
+Name of the .cs file being reviewed:	EnemyPhysics.cs
+Author of the .cs file being reviewed:	Thomas Unger
+Number of minutes taken to complete the review:	15 mins
+Specific comments on what is readable and what is not:
+	I think this code is readable because 
+	1. Its indentation and formatting are very clear.
+	2. The naming conventions are very clear to know the useage of each method.
+	3. There is no long method, each method is meaningful and short.
+	4. It will be easy to change or adding new features for this class.
+	So over all, I think this code is good in readablity. 

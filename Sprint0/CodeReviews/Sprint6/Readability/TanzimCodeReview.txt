@@ -1,0 +1,11 @@
+﻿Author:		Tanzim Khan
+Date of code review:	12/4/2017
+Sprint - 6
+Name of the .cs file being reviewed:	RandomObjectSpawner.cs
+Author of the .cs file being reviewed:	Ziheng Wei
+Number of minutes taken to complete the review:		~10 mins
+
+	The code is formatted froperly and is definitely readable. The variables and methods follow the proper naming convention
+	and have simple and clear objectives. The methods, and the whole class in general, are short and only do what they are 
+	supposed to. The only thing that I can add is that the assignment of enemy and item properties (for example item.IsActivated = true)
+	can be moved outside of the if-else statements, since all those randomly generated objects share the same properties.

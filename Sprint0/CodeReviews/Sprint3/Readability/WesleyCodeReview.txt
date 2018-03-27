@@ -1,0 +1,15 @@
+﻿Author: Wesley Brown
+Date: 10/04/2017
+Sprint: 3
+File being reviewed: StarMario.cs
+Author of the file: Tanzim Khan
+Minutes to complete code review: 10mins
+
+	This file is very readable. All of the field names for the class are
+	descriptive enough to not require comments and related field names are
+	grouped together. Any methods that do nothing have a comment stating that
+	no operation is done for them and most of the methods are only one line.
+	The only part of the file that is not as readable as the rest is the Update
+	method but that's to be expected since implementing the changing of colors
+	on the player's sprite is more complicated than the other methods. Overall, 
+	I would say that the entire file is very readable.

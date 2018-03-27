@@ -1,0 +1,15 @@
+﻿Author: Wesley Brown
+Date: 12/5/2017
+Sprint: 6
+File being reviewd: LuigiSpritePicker.cs
+Author of file: Thomas Unger
+Time to complete code review: ~10min
+
+The LuigiSpritePicker class is certainly readable. The class only implements
+one method which is Update. The name of the Update method makes what the method
+does immediately obvious. That and the class being very similar to the
+MarioSpritePicker class makes it easy to see that the class just decides
+which sprite Luigi should have depending on what his current state it. The part
+of the file that isn't so readable is the branching logic. There is some
+deep nesting inside the Update method but although there is a lot of logic,
+the logic for each branch is relatively simple.

@@ -1,0 +1,13 @@
+﻿Author:		Zicong Zhang
+Date of code review:	9/25/2017
+Sprint - 2
+Name of the .cs file being reviewed:	KeyboardController.cs
+Author of the .cs file being reviewed:	Thomas Unger
+Number of minutes taken to complete the review:		~16 mins
+
+	The code overall stays in the range of high quality. First of all no addional comments need to be added to explain
+	what the code is doing. Also the code has high cohesions in which every method is necessary and is implemented with 
+	a clean design.
+	A hypothetical change to the class would be using more organized designs or nested-class structure on command mapping 
+	patterns, which, on the one hand, based on what the project's performance would be something that need lees consideration
+	but would increase overall code qulity interms of clean design.

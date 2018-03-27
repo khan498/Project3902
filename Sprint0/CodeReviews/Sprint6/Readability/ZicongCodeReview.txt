@@ -1,0 +1,13 @@
+﻿Author:		Zicong Zhang
+Date of code review:	12/4/2017
+Sprint - 6
+Name of the .cs file being reviewed:	StartScreen.cs
+Author of the .cs file being reviewed:  Wesley Brown
+Number of minutes taken to complete the review:		~11 mins
+
+	The code is definitely readable. The class is used to generate start screen before the entering the game. Each
+	method inside the class is well organized in a way that the code explains what it does by itself. For example, there 
+	is initialize and selectoption, which labels the begin of middle of the process of generateing starting screen.
+	The update and draw, as other functional classes, are responsible for the regular drawing and inputs. If there were one
+	suggestion that I were to give to make the code even better, I would suggest that the initializations of option and other 
+	stuff could be combined together, which makes the class even cleaner.

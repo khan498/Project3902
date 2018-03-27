@@ -1,0 +1,14 @@
+﻿Author:		Zicong Zhang
+Date of code review:	10/30/2017
+Sprint - 4
+Name of the .cs file being reviewed:	MarioPhysics.cs
+Author of the .cs file being reviewed:	Thomas Unger
+Number of minutes taken to complete the review:		~14 mins
+
+The code stays in the range of high quality. The class is designed to be used as a physics engine that
+passes into the mario class to manage the movement of mario. That being said, method body within the 
+class follows a clean design pattern that has high cohesion and low coupling. Separating between walking
+jumping makes the code easy to maintain. If I were to suggest any thing that could slightly make the code
+even better, I would suggest that making this class available when mario is dead would be helpful, since 
+the physics engine only updates while mario is alive, based on the fact that there will also be animation 
+of dead mario

@@ -1,0 +1,14 @@
+﻿Author: Zicong Zhang
+Date: 10/04/2017
+Sprint: 3
+File being reviewed: LevelLoader.cs
+Author of the file: Wesley Brown
+Minutes to complete code review: 12mins
+
+	The file is highly readable. No comments are needed to explain what the
+	code is doing. The design is clear and straightforward. In addtition, using
+	an input text file with numbers as object identifiers to load objects in level
+	is a relatively smart way of design. All objects are sorted into lists so that 
+	they can be used in a switch logic to render the game objects. One suggestion 
+	would be that if we were to implement more objects into the game, we could build 
+	another class or function to actually organize stuff.

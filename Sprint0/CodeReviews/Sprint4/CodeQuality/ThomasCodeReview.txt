@@ -1,0 +1,12 @@
+﻿Author:		Thomas Unger
+Date of code review:	10/30/2017
+Sprint - 4
+Name of the .cs file being reviewed:	FireBallPhysics.cs
+Author of the .cs file being reviewed:	Tanzim Khan
+Number of minutes taken to complete the review:		~15 mins
+
+This class follows a similar format to the other physics classes with methods to dictate the movement of the fireball.
+It is highly cohesive since it only contains methods that deal directly with movement such as bounce, gravity, moveLeft 
+and moveRight.  As for coupling, the only other class referenced is the fireball class.  Generally this class is loosely 
+coupled since it doesn't have any other dependencies.  To improve the quality of this code and reduce redundancy among this
+one with other similar physics classes, and abstract physcs class could be created to implement all the common methods.

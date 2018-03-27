@@ -1,0 +1,11 @@
+﻿Author:		Tanzim Khan
+Date of code review:	9/25/2017
+Sprint - 2
+Name of the .cs file being reviewed:	WalkingGoombaSprite.cs
+Author of the .cs file being reviewed:	Wesley Brown
+Number of minutes taken to complete the review:		~15 mins
+
+	The code in this class is following good code quality propeties. It has fields that are relevent only to the specific tasks done by the methods,
+	making them highly cohesive. There are also a low number of dependencies throughout the class, resulting is low coupling. A lot of the functionality
+	is also hidden under the SpriteDrawer class, reducing complexity and making it more maintainable. Other than the draw method passing in magic numbers,
+	the rest of the code is as maintainable as it gets.

@@ -1,0 +1,13 @@
+﻿Author:		Thomas Unger
+Date of code review:	9/20/2017
+Sprint - 2
+Name of the .cs file being reviewed:	LeftWalkingGreenKoopaSprite.cs
+Author of the .cs file being reviewed:	Wesley Brown
+Number of minutes taken to complete the review:		~15 mins
+
+	Overall this file is straightforward and readable.  It contains clear references to the rectangles 
+	used to select sprites off the spritesheet as well as easy to understand logic that dictates the change 
+	between frames.  One idea to make the code more uniform with the rest of the project would be to change 
+	the ticks per frame references to a millisecond value so behavior remains predictable regardless of the 
+	performance of the system.  This would also cause the code to follow the same convention as some of the 
+	other animated sprites and input handling logic in the game.

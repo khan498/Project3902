@@ -1,0 +1,14 @@
+﻿Author of the code review:	Ziheng Wei
+Date of the code review:	09/20/17
+Sprint number:	Sprint 2
+Name of the .cs file being reviewed:	Coin.cs
+Author of the .cs file being reviewed:	Tanzim Khan
+Number of minutes taken to complete the review:	15 mins
+Specific comments on what is readable and what is not:
+	As a computer science engineering major student with 2 months experience with C#,
+	I think this code is readable because 
+	first, its indentation and formatting are very clear.
+	Second, The naming conventions are very clear to know the useage of each method.
+	Third, there is no long method, each method is meaningful and short.
+	Forth, he also included a comment on what to do next which is good for the other programmers.
+	So over all, I think this code is good in readablity. 

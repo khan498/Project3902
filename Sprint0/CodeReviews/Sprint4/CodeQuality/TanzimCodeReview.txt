@@ -1,0 +1,15 @@
+﻿Author:		Tanzim Khan
+Date of code review:	10/30/2017
+Sprint - 4
+Name of the .cs file being reviewed:	StarPhysics.cs
+Author of the .cs file being reviewed:	Zicong Zhang
+Number of minutes taken to complete the review:		~10 mins
+
+	The code in this class follows good code quality propeties for the most part. The class performs only a limited number of activities 
+	(that deal with the movement of the star item), as well as the fields being used make of class highly cohesive. There are also a fairly 
+	low number of dependencies throughout the class, resulting is low coupling. The only issues that I can point out are the following:
+	
+	1. The public boolean field "g" should be renamed appropriately, made private, and encapsulated in a public property.
+	2. The method nameed "bounceUp" should be pascal case.
+	3. There is no actual need for inheriting from an IPhysics interface since the all the concrete physics classes are being used directly 
+		by their respective objects anyway.

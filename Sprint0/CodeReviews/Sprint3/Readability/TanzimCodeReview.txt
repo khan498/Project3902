@@ -1,0 +1,11 @@
+﻿Author:		Tanzim Khan
+Date of code review:	10/4/2017
+Sprint - 3
+Name of the .cs file being reviewed:	Mario.cs
+Author of the .cs file being reviewed:	Thomas Unger
+Number of minutes taken to complete the review:		~10 mins
+
+	The code is definitely readable. It is properly formatted and follows the proper naming conventions for methods and variables.
+	It is also written in a sequential manner, making it easy to track and understand what exactly it is doing.
+	The only suggestion that I can make would be related to the class's code quality. The mouse movement is implemented in this class,
+	but it should be transfered to a mouse controller class and treated as a new controller (even if it's only for debugging purposes).

@@ -1,0 +1,24 @@
+﻿Author: Wesley Brown
+Date: 10/30/2017
+Sprint: 4
+File being reviewed: EnemyEnemyCollisionResponder.cs
+Author of the file: Ziheng Wei
+
+	The code quality of this file is pretty good but could be slightly better.
+	While the code is straight forward to understand due to it being similar to
+	the other collision responder classes,  it has deep levels of nesting in
+	it. Putting the if-else branches inside the switch statement in their own 
+	private methods could help reduce the deep nesting. Other than that, the
+	cohesion is high since all this file does is deal with IEnemy collisions
+	with other IEnemys and the coupling is low because the 
+	EnemyEnemyCollisionResponder class only depends on the IEnemy class and
+	the Side enum.
+
+	A potential change to the game that this file would have trouble supporting
+	easily would be if a IEnemys had a lot more states to check. Currently,
+	there are three IEnemy states being check in the if statements for the
+	left and right side collisions. If more were added, more states would be
+	added to these if statements and would increase the complexity of them and
+	reduce the readability and maintainability of them. To better prepare for
+	such a situation, it would be better to have the if statements in their own
+	private methods, removing the complexity from the switch cases.

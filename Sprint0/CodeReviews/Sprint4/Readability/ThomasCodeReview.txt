@@ -1,0 +1,13 @@
+﻿Author:		Thomas Unger
+Date of code review:	10/23/2017
+Sprint - 3
+Name of the .cs file being reviewed:	BasicCameraController.cs
+Author of the .cs file being reviewed:	Wesley Brown
+Number of minutes taken to complete the review:		~15 mins
+
+	The first thing I noticed with this class is that there are still a number of lines commented out.  This indicates that the class is 
+	probably still under development, but as of right now it is somewhat difficult for an outside observer to undestand what is going on.
+	Basically, I've gathered that this class gets the player's current position in the world and moves the camera relative to that position.
+	Generally, the methods have descriptive names but between the comments and the formatting, it's also hard to follow the syntax and 
+	control flow.  To improve readibility, consider putting descriptive comments for methods outside the method body, removing old code that
+	has been commented out, and spacing out the methods more so it's easier to see what code belongs to which one.

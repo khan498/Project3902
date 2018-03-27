@@ -1,0 +1,21 @@
+﻿Author: Wesley Brown
+Date: 11/13/2017
+Sprint: 5
+File being reviewed: GameScore.cs
+Author of file: Thomas Unger
+
+	This file deals with tracking the player's score during the course of the
+	game. The name of the file, class, and the names of the fields all make it
+	clear that this file deals with the player's score. All the field names
+	have to deal with score values and how to display them. All the method
+	names are clear in what they do and have at most one level of nested
+	branching. Most of the methods have only two lines and even the ones with
+	more are still easy to reason about. Considering all of this, this file
+	has great code quality.
+
+	One suggestion that I would make to improve this file even more would be
+	to possibly abstract out the logic for detecting when to adjust the
+	player's score into a class such as a ScoreManager. Then, GameScore would
+	just be told when to add to it's score and how much to add it it by the
+	ScoreManager. That way, all the logic for chain kills could also be taken
+	out of GameScore.

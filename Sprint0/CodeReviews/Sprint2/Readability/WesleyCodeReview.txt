@@ -1,0 +1,12 @@
+﻿Author: Wesley Brown
+Date: 09/20/2017
+Sprint: 2
+File being reviewed: QuestionBlockSprite.cs
+Author of the file: Zicong Zhang
+Minutes to complete code review: 15mins
+
+	I would consider the entire file readable. It uses obvious variable names and 
+	separates the various parts of the file nicely. There is one way that I think
+	the file could be even better, however, and that would be to fix the
+	indentation levels of the methods. Currently, they are indented by eight
+	spaces but four is the standard number to use.

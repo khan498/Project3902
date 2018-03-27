@@ -1,0 +1,13 @@
+﻿Author:		Zicong Zhang
+Date of code review:	12/4/2017
+Sprint - 6
+Name of the .cs file being reviewed:	EnemyBlockCollisionResponder.cs
+Author of the .cs file being reviewed:	thomas Unger
+Number of minutes taken to complete the review:		~12 mins
+
+	The code is definitely within the range of good quality. First of all, the code is well organized that 
+	the switch case help to determine the specific cases of collision, which is a sign of high cohesion.
+	And the every variable used in the class is declared and initalized at the top of the class and used throughout
+	the entire class. Then The code has low coupling in a way that there are few dependencies that the class rely on.
+	If I were to give any suggestion to make the code even better, I would suggest that making specific cases for koopa 
+	and goobo in terms of collision, since each of them will need different response for collision.

@@ -1,0 +1,18 @@
+﻿Author:		Zicong Zhang
+Date of code review:	10/9/2017
+Sprint - 3
+Name of the .cs file being reviewed:	LevelLoader.cs
+Author of the .cs file being reviewed:	Wesley Brown
+Number of minutes taken to complete the review:		~12 mins
+
+I would say that the code is within the range of high quality. Firstly, the class has 
+high cohesion in which one important thing that the code does to the game is to put everything 
+into the world. Other than the fact that the code itself is a detailed explanation of what
+it is capable of, the use of switch cases between different types of objects provide low coupling 
+side of the code. The class in general takes an input file, read the file, and then output the 
+objects to the window based on differrent number of object Id, which can be also considered as 
+an easy way of organize code. One suggestion I would made if there is any is that since we will
+be dealing with a entire world that is times longer than the one we implemented for this sprint,
+we could probably passes the id to different objects; so when we manipulate the objects around in
+the game world, we could actually change the file directly through object coding, which outputs 
+immediately to the window with the coresponding effect.

@@ -1,0 +1,12 @@
+﻿Author:		Thomas Unger
+Date of code review:	10/4/2017
+Sprint - 3
+Name of the .cs file being reviewed:	CollisionDetector.cs
+Author of the .cs file being reviewed:	Wesley Brown
+Number of minutes taken to complete the review:		~15 mins
+
+	This code is highly readable, especially considering the complexity of this class.  The variable names clearly
+	indicate what they describe and the program flow follows a logical pattern.  This class basically iterates through lists 
+	of each type of game entity looking for places where the edges of the entities overlap with each other.  When one of them
+	shows an overlap, it calls an external method to handle interaction between the two objects.  The four iteration blocks are
+	all structured exactly the same, allowing for consistent readibility across the entire class.

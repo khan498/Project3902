@@ -1,0 +1,15 @@
+﻿Author of the code review:	Ziheng Wei
+Date of the code review:	11/08/17
+Sprint number:	Sprint 5
+Name of the .cs file being reviewed:	LevelTimer.cs
+Author of the .cs file being reviewed:	Wesley Brown
+Number of minutes taken to complete the review:	15 mins
+Specific comments on code quality: 
+	Code's cohesion is high and coupling is low so it follows high code quality desgin pattern
+	For coupling, the methods have only 1 dependency. 
+	There is no code smells since every method is not long and the class is meaningful
+	most of the methods are not too long.
+	The design of this class is clear. 
+A hypothetical change to make to the game related to file being reviewed and how the current 
+implementation could or could not easily support that change:
+	It is easy to change if we want to change the effect at a certain time. 

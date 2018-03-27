@@ -1,0 +1,11 @@
+﻿Author:		Tanzim Khan
+Date of code review:	11/8/2017
+Sprint - 5
+Name of the .cs file being reviewed:	SoundFactory.cs
+Author of the .cs file being reviewed:	Zicong Zhang
+Number of minutes taken to complete the review:		~10 mins
+
+	The code is formatted froperly and is readable for the most part. However there are some issues with it. First of all, a majority of the methods voilate
+	the proper naming convention. The SoundFactory is class is also tracking keyboard states, and playing sounds based on those key presses. This should instead
+	be handled by the commands that the controllers call. Additionaly, the sound factory has methods like Update, which go outside of the scope of what a 
+	factory class should do, which in this case is only returning a sound effect.

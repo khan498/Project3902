@@ -1,0 +1,12 @@
+﻿Author:		Zicong Zhang
+Date of code review:	11/8/2017
+Sprint - 5
+Name of the .cs file being reviewed:	GameScore.cs
+Author of the .cs file being reviewed:	Thomas Unger
+Number of minutes taken to complete the review:		~12 mins
+
+	The code definitely stays within the range of good quality. The class is implemented so it can control and record the score in game. The class has 
+	relatively low coupling, since for most of the method bodies the only two parameters that got passed in were the x and y values. The class follows
+	a clean design where each socre from different part of game is managed separately and altered indiviually with reduced steps, which implies a low 
+	coupling of the class. If I were to give any advice to make the class even better, I would say that DrawScore can be re-implemented so that it can 
+	fall into the spritedrawer class, which makes the code easier to maintain and reuse.

@@ -1,0 +1,12 @@
+﻿Author:		Tanzim Khan
+Date of code review:	11/13/2017
+Sprint - 5
+Name of the .cs file being reviewed:	LevelTimer.cs
+Author of the .cs file being reviewed:	Wesley Brown
+Number of minutes taken to complete the review:		~10 mins
+
+	The code in this class is following good code quality propeties. It has fields that that are used in this class 
+	and it only deals with activities related to the timer, which makes the class fairly cohesive. There are also a low 
+	number of dependencies throughout the class, resulting is low coupling. It can be argued that since the class deals with
+	changing game music and turning on the game over state, it lowers cohision. But then again, since these are
+	events that trigger based on the timer exclusively, it can also be said that the cohesion isn't affected.

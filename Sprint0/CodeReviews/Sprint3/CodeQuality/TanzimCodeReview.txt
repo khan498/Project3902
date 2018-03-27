@@ -1,0 +1,12 @@
+﻿Author:		Tanzim Khan
+Date of code review:	10/9/2017
+Sprint - 3
+Name of the .cs file being reviewed:	MarioBlockCollisionResponder.cs
+Author of the .cs file being reviewed:	Zicong Zhang
+Number of minutes taken to complete the review:		~10 mins
+
+	The code in this class is following good code quality propeties. It has fields that that are used in this class make the class,
+	fairly cohesive. There are also a fairly low number of dependencies throughout the class, resulting is low coupling. However, since
+	the class is changing both mario's position and changing the block states, it can be argued that the class has low cohesion. But 
+	since there are only a limited number of block types, and some have to be removec from the level, keeping them in the same class
+	might result in low number of dependencies.

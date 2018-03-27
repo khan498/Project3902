@@ -1,0 +1,11 @@
+﻿Author:		Thomas Unger
+Date of code review:	11/13/2017
+Sprint - 5
+Name of the .cs file being reviewed:	Tanzim Khan
+Author of the .cs file being reviewed:	LevelTimer.cs
+Number of minutes taken to complete the review:		~15 mins
+
+This file is highly cohesive since it only performs the functions related to the level timer.  It fits within the size limit for classes
+and does not have any nested branching or overly complicated methods.  This file's coupling is loose.  The only external dependencies are
+to the soundFactory class, which is used for time-related sound effects.  Overall, the only code quality improvement that could be made to 
+this class would be to save the 100 second time limit as a separate variable so that the file wouldn't contain any magic numbers.

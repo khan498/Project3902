@@ -1,0 +1,27 @@
+﻿Author: Wesley Brown
+Date: 10/09/2017
+Sprint: 3
+File being reviewed: StarMario.cs
+Author of file: Tanzim Khan
+
+I would say that the file StarMario.cs has low coupling and hight cohesion.
+Therfore, I would also say that it has excellent code quality. In regards to
+coupling, the StarMario class has only two dependencies, an IPlayer and an 
+array of Colors. So, its coupling is very low. In regards to cohesion,
+since there are only two fields, and they are both relevent to the function of
+the class, cohesion is very high.
+
+Looking at the methods, most of them are either zero lines due to them having
+no operation or one line. The Draw method just calls the Draw method of the
+IPlayer it is decorating and passes it a different parameter value, making the
+method very simple and easy to maintain. The most complicated method is the
+Update method but even then it uses obvious and descriptive variable names and
+is overall easy to reason about.
+
+One suggestion would be to change the field name for the IPlayer to something
+like decoratedPlayer since concrete instances of IPlayer can potentially be
+classes for different characters other than Mario. Adding a new character such
+as Luigi would probably require the name of that field to be changed anyways
+since referring to a Luigi object as starMario doesn't make much sense. On that
+note, changing the name of the class to StarPlayer or something like that would
+increase reusability in the same regard.

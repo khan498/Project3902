@@ -1,0 +1,11 @@
+﻿Author:		Tanzim Khan
+Date of code review:	12/5/2017
+Sprint - 6
+Name of the .cs file being reviewed:	FireBallPlayerCollisionResponder.cs
+Author of the .cs file being reviewed:	Zicong Zhang
+Number of minutes taken to complete the review:		~5 mins
+
+	The code in this class is following good code quality propeties. The class uses a very limited number variables,
+	and the classes have very specific functions, resulting it to be highly cohesive. Also it uses another collision
+	class specific to FIreball collisions, resulting in a low cohession. The only thing that I can suggest is getting 
+	rid of the dead/commented out code in the HandleCollision method (which was likelyput in there for testing purposes).

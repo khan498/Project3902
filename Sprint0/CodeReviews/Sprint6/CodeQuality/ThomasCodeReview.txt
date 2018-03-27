@@ -1,0 +1,14 @@
+﻿Author:		Thomas Unger
+Date of code review:	12/5/2017
+Sprint - 5
+Name of the .cs file being reviewed:	Tanzim Khan
+Author of the .cs file being reviewed:	ArenaGameMode.cs
+Number of minutes taken to complete the review:		~15 mins
+
+This class includes a lot of new features that were added to the game in the final sprint.  The class is almost 270 lines long,
+but besides being over the recommended line limit, it maintains high cohesion.  This class provides the interface between the 
+controllers, levels, and game states associated with the new arena game mode.  The class has moderately tight coupling with the
+controller and level classes but because it is a higher-level class whose main purpose is to facilitate communication between
+other classes, this coupling is acceptable.  To improve the quality of this class, some of the methods that deal with specific 
+groups of classes like controllers or the camera could be broken out into separate utility classes.  This would decrease the 
+overall size of this file as well as decrease the overall coupling.

@@ -1,0 +1,10 @@
+﻿Author of the code review:	Zicong Zhang
+Date of the code review:	11/08/17
+Sprint number:	Sprint 5
+Name of the .cs file being reviewed:	GreenKoopa.cs
+Author of the .cs file being reviewed:	Thomas Unger
+Number of minutes taken to complete the review:	16 mins
+	The overall class is totally readable. Using boolean to check whether Koopa is in shell 
+	is definitely a good way of design , since the boolean can be used in the collsion responder 
+	to set up the sound. if there were one thing I would suggest to make the code better is that
+	Koopa could use a timer that causes him to go back to walking state after a short time period.

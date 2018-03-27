@@ -1,0 +1,12 @@
+﻿Author: Wesley Brown
+Date: 10/23/2017
+Sprint: 4
+File being reviewed: EnemyEnemyCollisionResponder.cs
+Author of the file: Ziheng Wei
+Number of minutes to complete code review: ~10 minutes
+
+	In general, the file is easy to read. It is structured like the other
+	collision responder classes and therefore has a familiar layout and
+	flow just like the others. The variable names are descriptive and
+	therefore the code does not require comments. Therefore, I'd say that
+	this file is readable.

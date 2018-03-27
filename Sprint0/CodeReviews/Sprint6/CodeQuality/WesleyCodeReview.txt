@@ -1,0 +1,24 @@
+﻿Author: Wesley Brown
+Date: 12/5/2017
+Sprint: 6
+File being reviewed: LuigiSpritePicker.cs
+Author of file: Thomas Unger
+
+The code quality of this class has room for improvement. I would say that the
+class has high cohesion because all the class does is change the sprite for
+Luigi depending on his current sprite. The class implements only one public
+method to do this making the interface for it very simple. Coupling is low
+since it depends on only the IPlayer interface.
+
+Some improvements that could be made to the class would be to decrease the size
+of the Update method by possible abstracting the different branches of logic
+into separate private methods. This would also reduce the branching of the
+Update method. Another suggestion would be to change the name of the private
+IPlayer field to luigi instead of mario since this class is supposed to be
+used only for Luigi.
+
+The above improvements would increase the code quality because if, for example,
+more states were added to IPlayers, there would have to be more branching logic
+added to the Update method. If logic for different states was abstracted out
+into separate private methods or a different class, the quality of the file
+overall would increase.

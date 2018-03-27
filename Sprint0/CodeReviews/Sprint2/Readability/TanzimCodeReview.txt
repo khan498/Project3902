@@ -1,0 +1,11 @@
+﻿Author:		Tanzim Khan
+Date of code review:	9/20/2017
+Sprint - 2
+Name of the .cs file being reviewed:	WalkingGoombaSprite.cs
+Author of the .cs file being reviewed:	Wesley Brown
+Number of minutes taken to complete the review:		~15 mins
+
+	The code is definitely readable for the most part. It is properly formatted and follows the proper naming conventions for methods and variables.
+	The code is written in a sequential manner, making it easy to track and understand what exactly it is doing.
+	One thing that I could suggest is creating a custom wait logic for all animated sprites, since the current implementation of ticks
+	is shared by all the sprite classes. This will improve the readability of the the Update() method even further.	

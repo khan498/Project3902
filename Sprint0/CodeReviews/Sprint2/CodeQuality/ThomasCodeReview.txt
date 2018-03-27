@@ -1,0 +1,18 @@
+﻿Author:		Thomas Unger
+Date of code review:	9/25/2017
+Sprint - 2
+Name of the .cs file being reviewed:	LeftWalkingGreenKoopaSprite.cs
+Author of the .cs file being reviewed:	Wesley Brown
+Number of minutes taken to complete the review:		~15 mins
+
+This code in this class aligns with the standards of high quality.  It contains cohesive methods 
+that only carry the minimum functionality to make this class unique.  The project was recently updated
+to include a SpriteDrawer class that implements methods that were repeated in a variety of sprite classes.  
+This class now calls those methods so the project has a unified way of drawing sprites regardless of the type.
+This class is loosely coupled with the SpriteDrawer class since the SpriteDrawer class can be used for any sprite
+in the project, animated or not.  
+
+One possible change to make to this implementation would be to have it implement SpriteDrawer as an abstract class
+or a singleton instead of a concrete class.  This would improve memory usage for the game since there would be less
+instances of the SpriteDrawer class that all call the same methods.  The current implementation could support that 
+change with some effort to update every sprite file in the game to account for the change.

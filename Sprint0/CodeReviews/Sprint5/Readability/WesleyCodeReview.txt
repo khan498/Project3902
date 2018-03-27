@@ -1,0 +1,14 @@
+﻿Author: Wesley Brown
+Date: 11/08/2017
+Sprint: 5
+File being reviewed: GameScore.cs
+Author of file: Thomas Unger
+Time to complete code review: ~10min
+
+	This file is defintely readable. The name of the class tells you what the
+	class represents and it implements an interface that is easy to interpret
+	as well. The file follows the proper formatting and style conventions that
+	all the other files follow and all the method names are clear and as short
+	as possible. One problem with the file, however, is that the method names
+	could be improved if they were all verbs instead of some of them such as
+	"EnemyStompScore". Other than that, the file is perfectly readable.
