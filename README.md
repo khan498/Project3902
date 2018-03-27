@@ -1,5 +1,5 @@
-# Project3902
-A custom version of Super Mario Brothers, using a 2D Platformer Game Engine
+# Project3902 - by teamMetaKnight
+A custom version of Super Mario Brothers, using a 2D Platformer Game Engine.
 
 Note: 	If the game crashes, make sure you have the resources listed below installed.
 	If you are having issues with your anti-virus, you can temporarily turn off your anti-virus.
