@@ -3,8 +3,9 @@ A custom version of Super Mario Brothers, using a 2D Platformer Game Engine
 
 Note: 	If the game crashes, make sure you have the resources listed below installed.
 	If you are having issues with your anti-virus, you can temporarily turn off your anti-virus.
+	A Demo Build for Windows OS is included in the "Windows x86 Build Demo" folder.
 
-Required Resources:
+Required Resources (Included in the Resources folder)
 	1. Visual C++ Redistributable (vcredist x86 or x64 based on your OS)
 	2. DirectX 9 End-User Runtimes (Latest version)
 
